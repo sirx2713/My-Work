@@ -1,0 +1,136 @@
+body{
+    background-color: #DFD7BF;
+}
+h1{
+    font-family: Inter, serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+#sub-head{
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+#first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gold{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#fourth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#fifth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#first > p, h3, h2, img{
+    margin-top: -20px;
+    font-family: "SF Pro Display", serif;
+}
+#first > img{
+    margin-bottom: -40px;
+}
+#first > p{
+    color: #FFC95F;
+}
+.gold > p, h3, h2, img{
+    margin-top: -20px;
+    font-family: "SF Pro Display", serif;
+}
+.gold > img{
+    margin-bottom: -40px;
+}
+.gold > p{
+    color: #F5F5F5;
+}
+#second > p, h3, h2, img{
+  margin-top: -20px;
+    font-family: "SF Pro Display", serif;
+}
+#second > img{
+    margin-bottom: -40px;
+}
+#second > p{
+    color: #FFC95F;
+}
+#third > p, h3, h2, img{
+    margin-top: -20px;
+    font-family: "SF Pro Display", serif;
+}
+#third > img{
+    margin-bottom: -40px;
+}
+#third > p{
+    color: #FFC95F;
+}
+#fourth > p, h3, h2, img{
+    margin-top: -20px;
+    font-family: "SF Pro Display", serif;
+}
+#fourth > img{
+    margin-bottom: -40px;
+}
+#fourth > p{
+    color: #FFC95F;
+}
+#fifth > p, h3, h2, img{
+    margin-top: -20px;
+    font-family: "SF Pro Display", serif;
+}
+#fifth > img{
+    margin-bottom: -40px;
+}
+#fifth > p{
+    color: #FFC95F;
+}
+#sub-head{
+    text-align: center;
+    width: 600px;
+    align-items: center;
+    margin-left: 400px;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 400px 400px 400px;
+    gap: 10px;
+}
+.gray{
+    background-color: #F5F5F5;
+}
+.gold{
+    background-color: #FFC95F;
+}
+.code{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
